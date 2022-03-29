@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="@dimen/_420sdp"
+        android:layout_height="@dimen/_400sdp"
+        android:layout_marginLeft="-30dp"
+        android:layout_marginTop="-60dp"
+        android:background="@drawable/image2"
+        android:orientation="vertical" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/rubikmedium"
+        android:text="One Stop Solution\nfor all your needs"
+        android:textAlignment="center"
+        android:textColor="#002E75"
+        android:layout_marginTop="-40dp"
+        android:textSize="@dimen/_20sdp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:fontFamily="@font/rubikregular"
+        android:text="Lorem ipsum dolor sit amet,\n consectetur adipiscing elit, sed\n do eiusmod tempor"
+        android:textAlignment="center"
+        android:textColor="#78789D"
+        android:textSize="@dimen/_14sdp" />
+
+
+</LinearLayout>

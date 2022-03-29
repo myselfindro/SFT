@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_210sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_90sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:background="@drawable/image3"
+        android:orientation="vertical" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:fontFamily="@font/rubikmedium"
+        android:text="Helps you to Grow\nyour Business"
+        android:textAlignment="center"
+        android:textColor="#002E75"
+        android:textSize="@dimen/_20sdp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:fontFamily="@font/rubikregular"
+        android:text="Lorem ipsum dolor sit amet,\n consectetur adipiscing elit, sed\n do eiusmod tempor"
+        android:textAlignment="center"
+        android:textColor="#78789D"
+        android:textSize="@dimen/_14sdp" />
+
+
+</LinearLayout>

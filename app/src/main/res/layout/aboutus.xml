@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl_aboutus">
+
+    <ScrollView
+        android:id="@+id/scrollVw"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:fontFamily="@font/rubikmedium"
+                android:text="Brief on Shyam Future Tech"
+                android:textColor="#002E75"
+                android:textSize="@dimen/_18sdp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:fontFamily="@font/rubikregular"
+                android:text="We are Shyam Future Tech LLP – the ISO 27001:2013 and 9001:2015 certified IT venture of Shyam Steel Industries Ltd., digitally enabling businesses of every scale. It isn’t sane to survive when you can thrive. We assist you to get automated with dynamic and customized business software, tailor-made for your business. Automation is the key to excellence; we help you to harness the power of business automation for increasing your business productivity, revenue and making it sustainable."
+                android:textColor="#909090"
+                android:textSize="@dimen/_11sdp" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="-130dp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:src="@drawable/spimage" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginTop="-140dp"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:fontFamily="@font/rubikregular"
+                android:text="Commonly referred to as SFT, we are a custom business solution development agency with 100+ techies, creating effective business solutions like an ERP system, CRM solution, mobile apps for different platforms, cross-platform applications, websites, digital logos, captivating UI/ UX, and other customized products best-fitting your requirements."
+                android:textColor="#909090"
+                android:textSize="@dimen/_11sdp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_55sdp"
+                android:orientation="horizontal"
+                android:layout_margin="@dimen/_15sdp"
+                android:background="@drawable/bg1"
+                android:weightSum="3"
+                android:backgroundTint="#002E75">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="5K"
+                        android:gravity="center"
+                        android:layout_weight="0.5"
+                        android:textColor="#52BB7E"
+                        android:fontFamily="@font/rubiksemibold"
+                        android:textSize="@dimen/_24sdp"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Project \nExecuted"
+                        android:layout_weight="0.5"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/rubikregular"
+                        android:textSize="@dimen/_8sdp"/>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="4K"
+                        android:gravity="center"
+                        android:layout_weight="0.5"
+                        android:textColor="#FBAA18"
+                        android:fontFamily="@font/rubiksemibold"
+                        android:textSize="@dimen/_24sdp"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Satisfied \nCustomers"
+                        android:layout_weight="0.5"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/rubikregular"
+                        android:textSize="@dimen/_8sdp"/>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="10"
+                        android:layout_weight="0.5"
+                        android:textColor="#FF9381"
+                        android:gravity="center"
+                        android:fontFamily="@font/rubiksemibold"
+                        android:textSize="@dimen/_24sdp"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Years of Experience"
+                        android:layout_weight="0.5"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/rubikregular"
+                        android:textSize="@dimen/_8sdp"/>
+
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>
